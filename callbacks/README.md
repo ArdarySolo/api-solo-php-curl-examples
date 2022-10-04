@@ -70,3 +70,22 @@ $call is an object like this:
     "DURATION": "15:11:04"
 
  }
+   ### GET CALL QUALIFICATION :
+```php
+<?php
+$qualification  =json_decode($_GET["calls"]);
+?>
+
+$qualification is an object like this:
+{
+
+"title":"Call qualification From Mobile",// or title can be "Call qualification From Interface"
+
+"from":"+1XXXXXXXXXX", // phone number (international format)
+
+"qualification":"Hello world !",
+
+"date":"2020-01-21 10:01:38"
+
+}
+ ```
