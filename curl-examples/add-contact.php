@@ -11,7 +11,7 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS =>'{"header":{"login":"user@gmail.com","password":"test","api":true},"contacts":[{"first_name":"Joe","last_name":"","phone_number":"686******","country_code":"FR","email":""}]}',
+  CURLOPT_POSTFIELDS =>'{"header":{"login":"user@gmail.com",accessKey:'xwf4dfd....'},"contacts":[{"first_name":"Joe","last_name":"","phone_number":"686******","country_code":"FR","email":""}]}',
   CURLOPT_HTTPHEADER => array(
     'Content-Type: application/json'
   ),
