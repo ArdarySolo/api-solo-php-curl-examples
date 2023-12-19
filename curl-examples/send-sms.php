@@ -10,7 +10,7 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS =>'{"header":{"login":"user@gmail.com","password":"test","api":true},"contacts":[{"first_name":"Joe","last_name":"","phone_number":"668xxxxxx","country_code":"FR","email":""}]}',
+  CURLOPT_POSTFIELDS =>'{"header":{"login":"user@gmail.com","accessKey":"Wjdfs.."},"messages":[{"phone_number":"+33xxxxxxxxxx","message":"Hi Joe [Link]","url":"https://beautifier.io/","priorite": 1,"date_to_send":"2023-10-29 10:16:10"}]}',
   CURLOPT_HTTPHEADER => array(
     'Content-Type: application/json'
   ),
